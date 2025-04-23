@@ -1,0 +1,23 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 0;
+}
+.contenido form {
+  border: 1px solid black;
+  padding: 20px;
+}
+#mostrar tr,
+td {
+  border: 1px solid black;
+}
+#mostrar td {
+  padding: 10px 30px;
+}
